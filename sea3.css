@@ -100,7 +100,7 @@ body {
    color: #000000;
 }
 .img-background {
-     background-size: contain;
+     background-size: cover;
      background-repeat: no-repeat;
      background-position: right;
      color: #fff;

@@ -106,15 +106,15 @@ body {
      color: #fff;
 }
 .img-background--turtle {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/DashaIvanova1/Ivanova/blob/main/turtle.jpg');
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/turtle.jpg');
 }
 
 .img-background--sea {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/DashaIvanova1/Ivanova/blob/main/sea.jpg');
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/sea.jpg');
 }
 
 .img-background--shell {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://github.com/DashaIvanova1/Ivanova/blob/main/shell.jpg');
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/shell%20(2).jpg');
      background-size: cover;
      background-repeat: no-repeat;
      color: #fff;

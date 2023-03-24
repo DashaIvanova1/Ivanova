@@ -102,7 +102,7 @@ body {
 .img-background {
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: left center;
+     background-position:  right center;
      color: #fff;
 }
 .img-background--turtle {

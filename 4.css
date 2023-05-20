@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+.scene {
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+	position: relative;
+	top: 0;
+    left: 0;
+	background-color: #B0E0E6;
+	transform: translate3d(0, 0, 0);
+}
+
+.animation-sloi-1 {
+  animation: animation_fg linear 30s infinite both;
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D1%84%D0%BE%D0%BD2.png)
+    0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.animation-sloi-2 {
+  animation: animation_fg linear 55s infinite both;
+
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D0%B4%D0%BD%D0%BE.png)
+    0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 400px;
+}
+
+.animation-sloi-3 {
+  animation: animation_fg linear 75s infinite both;
+  background: url(https://raw.githack.com/DashaIvanova1/Ivanova/main/%D0%BE%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B3.png)
+    0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 200px;
+}
+
+.animation-sloi-4 {
+  animation: animation_fg linear 95s infinite both;
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D0%B2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D1%81%D0%BB%D0%B8.png)
+    0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 800px;
+}
+
+.animation-sloi-5 {
+  animation: animation_fg linear 120s infinite both;
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8C2.png)
+    0 100% repeat-x;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 1700px;
+}
+
+.animation-sloi-6 {
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D0%B7%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0.png)
+    0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+  animation: animation_star linear 10s infinite both;
+}
+
+.animation-sloi-7 {
+  background: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/%D1%80%D1%8B%D0%B1%D1%8B2.png)
+    0 100% no-repeat;
+  z-index: 1;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 75px;
+  animation: animation_octopus linear 15s infinite both;
+}
+@keyframes animation_fg {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@keyframes animation_star {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
+@keyframes animation_octopus {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}

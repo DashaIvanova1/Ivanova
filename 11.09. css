@@ -63,13 +63,13 @@
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
-.object {
+.class {
 color:blue;
 }
-.object-1{
+.class1{
 color:green;
 }
-.object-2 {
+.class2 {
 color:yellow;
 }
 #flat .title {

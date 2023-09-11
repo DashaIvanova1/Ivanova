@@ -152,7 +152,7 @@ color:yellow;
  margin: 0 auto;
 }
 #flat .line-break1 {
- background: linear-gradient(60deg, green, blue, yellow);
+ background: linear-gradient(60deg, green, yellow, blue);
  width: 100%;
  margin: 0 auto;
 }

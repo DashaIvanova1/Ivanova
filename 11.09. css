@@ -63,13 +63,13 @@
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
-.object-1 {
+.object {
 color:blue;
 }
-.object-2 {
+.object-1{
 color:green;
 }
-.object-3 {
+.object-2 {
 color:yellow;
 }
 #flat .title {
@@ -110,7 +110,7 @@ color:yellow;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/1.jpg);
+ background-image: url(https://raw.githack.com/DashaIvanova1/Ivanova/main/1.jpg);
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -124,7 +124,7 @@ color:yellow;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/2.jpg);
+ background-image: url(https://raw.githack.com/DashaIvanova1/Ivanova/main/2.jpg);
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -138,7 +138,7 @@ color:yellow;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url(https://raw.githubusercontent.com/DashaIvanova1/Ivanova/main/3.jpg);
+ background-image: url(https://raw.githack.com/DashaIvanova1/Ivanova/main/3.jpg);
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;

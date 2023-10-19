@@ -2,7 +2,7 @@ var questions = [
 
 	{
 
-		question: "	Какой знак восточного гороскопа следует за знаком Дракона?",
+		question: "Какой знак восточного гороскопа следует за знаком Дракона?",
 
 		answer: "змея"
 
@@ -48,8 +48,6 @@ for(i = 0; i < questions.length; i++) {
 	document.getElementById('question' + [i]).textContent = q
 
 }
-
-
 
 function testResults() {
 
